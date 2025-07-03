@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+build/
+develop-eggs/
+dist/
+eggs/
+*.egg
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.whl
+
+# Installer logs
+pip-log.txt
+pip-delete-this-arg.txt
+
+# Unit test / coverage reports
+.coverage
+.tox/
+.nox/
+htmlcov/
+.pytest_cache/
+.hypothesis/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Virtual environment (common names, adjust if yours is different)
+.env
+.venv

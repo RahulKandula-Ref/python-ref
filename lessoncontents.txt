@@ -1,0 +1,45 @@
+lesson 1 - start here
+    selecting python interpreter in vscode
+
+lesson 2 - basics
+    auto format enable in vscode settings  
+
+lesson 3 - operators
+    assignment
+    =
+    
+    Arithmetic
+    + - * ** / // %
+    **=
+
+    concat
+    'name ' + 'hellp'
+
+    comparison 
+    == != > < >= <= 
+
+    boolean 
+    not and or
+
+    ternery operators
+
+# installing in a venv
+python3 -m venv venv_my
+source venv_my/bin/activate
+python3 -m pip install requests
+deactivate
+
+# authentications in http
+# basic
+1. 401 response 
+WWW-Authenticate: Basic realm="Our Protected Area"
+2. Client gets username and passwrd in a popup and does base64 encoding and sends it as 
+Authorization: Basic <Base64-encoded username:password>
+
+# bearer
+Authorization: Bearer <base64 jwt token header:payload:signature>
+
+#tkinter
+brew install python-tk
+
+
