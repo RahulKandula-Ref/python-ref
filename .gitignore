@@ -46,3 +46,4 @@ htmlcov/
 # Virtual environment (common names, adjust if yours is different)
 .env
 .venv
+.venv_*
